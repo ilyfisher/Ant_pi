@@ -98,6 +98,6 @@ Code to set up live cam, humidity, and temperature checker
 
 ![Shape5](RackMultipart20220329-4-14ckt1e_html_6df798629e810641.gif) ![](RackMultipart20220329-4-14ckt1e_html_d3bb78b566137a12.png)
 
-tips
+### Tips
 
 Download VNC viewer on your PC and VNC server on your PI to connect with a GUI to your PI without the pi being connected to a screen and keyboard.

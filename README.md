@@ -2,7 +2,7 @@
 Code to set up live cam, humidity, and temperature checker
 
 ## Writeup
-[List of supplies]
+### List of supplies
 
 - Raspberry pi 3/power supply [here](https://www.amazon.com/CanaKit-Raspberry-Power-Supply-Listed/dp/B07BC6WH7V/ref=sr_1_6?dchild=1&amp;keywords=raspberry+pi+3&amp;qid=1618727784&amp;sr=8-6)
 - Monitor, Mouse and Keyboard
@@ -13,7 +13,7 @@ Code to set up live cam, humidity, and temperature checker
 - Heat Shrink Tubing [here](https://www.amazon.com/gp/product/B00VG9XL5U/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;tag=carnivorou036-20&amp;camp=1789&amp;creative=9325&amp;linkCode=as2&amp;creativeASIN=B00VG9XL5U&amp;linkId=2f247f1dcd563eca0ebdd655d9f3245a)
 - AM2302 Temperature &amp; Humidity Sensor [here](https://www.amazon.com/Gowoops-Temperature-Humidity-Measurement-Raspberry/dp/B073F472JL/ref=sr_1_2?dchild=1&amp;keywords=am2302+raspberry+pi&amp;qid=1619045823&amp;s=electronics&amp;sr=1-2)
 
-[To make the Live video Feed]
+### To make the Live video Feed
 
 1. First set up your raspberry pi. I used a raspberry PI 3.
   - Download raspberry pi imager using

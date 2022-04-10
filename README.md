@@ -21,10 +21,12 @@ Code to set up live cam, humidity, and temperature checker
   - Install full version of Raspberry Pi OS on SD card
   - Insert micro sd card into raspberry pi
   - Connect to screen, mouse, keyboard, and camera
+  
 2. Install the Camera
   - To install the camera gently pull up on the CSI camera connector tab and insert the ribbon cable then gently push down on either side of the tab until the ribbon is secured. Below are instructions for the direction the ribbons face. See diagram lower on page if you need help locating CSI camera connector which is located between the Aux and micro-HDMI ports
   - Insert the cable into the Raspberry Pi camera connector with the foil end facing the micro-HDMI ports
   - The foil should be inserted facing towards the camera module when connecting the ribbon to the camera
+  
 3. Configure OS
   - Enable SSH and
     - _sudo raspi-config_
@@ -35,11 +37,14 @@ Code to set up live cam, humidity, and temperature checker
   - navigate to Interfacing Options
   - navigate to camera
   - When Prompted Select &quot;_Yes_&quot;
-  - Restart raspberry pi
+  - Restart the Raspberry Pi
+    - ```{shutdown -r now}```
+  
 4. Connect to WIFI
   - Connect to the network you intend to leave your PI on.
   - Get the private IP address you can use it remotely connect to the PI from your computer later
     - _Hostname -I_
+    
 5. RPi Webcam Interface
   - This will create a locally hosted website on your PI that is not connected to the internet
     - _sudo apt-get update_
@@ -53,6 +58,7 @@ Code to set up live cam, humidity, and temperature checker
     - _mv raspimjpeg-stretch raspimjpeg_
     - _cd .._
     - _./install.sh_
+
 6. Make dataplicity account
   - [https://www.dataplicity.com/](https://www.dataplicity.com/)
   - Make an account

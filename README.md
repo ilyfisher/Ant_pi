@@ -65,8 +65,7 @@ Code to set up live cam, humidity, and temperature checker
 1. Connect the AM2302 Temperature &amp; Humidity Sensor to the pin-out board on the PI
   - We will use physical pin 7 (data), pin 9 (ground), and pin 17 (3v3 power)
   - With the AM2302 from the left + to the right – we will connect the first pin on the AM2302 to pin 17, the middle pin on the AM2302 will connect to pin to pin 7, and finally the third pin on the AM2302 we will connect to pin 9. See the diagram below to check your wiring.
-
-![Shape3](RackMultipart20220329-4-14ckt1e_html_b87a32603c0a9135.gif) ![Shape2](RackMultipart20220329-4-14ckt1e_html_47f67189a0e3e25f.gif) ![Shape1](RackMultipart20220329-4-14ckt1e_html_6034b4bbe49ab4ba.gif) ![Shape4](RackMultipart20220329-4-14ckt1e_html_d16351fa96796a58.gif) ![](RackMultipart20220329-4-14ckt1e_html_c64d78f7a3f51737.png) ![](RackMultipart20220329-4-14ckt1e_html_402ed0dd9ed839a7.png)
+https://drive.google.com/file/d/1csHVD9fSw4PsXAM3QqvtrhVwElVx_sYT/view?usp=sharing
 
 1. Open a terminal on the PI
 

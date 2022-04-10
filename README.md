@@ -95,7 +95,7 @@ https://drive.google.com/file/d/1vh_XfgyGuFAUC3a88TxwrKJDOynKVTIW/view?usp=shari
   - Select run and save
   - You can view your graph from thingspeak or click on the button in the picture below to generate an iframe to embed the graph in a website
 
-![Shape5](RackMultipart20220329-4-14ckt1e_html_6df798629e810641.gif) ![](RackMultipart20220329-4-14ckt1e_html_d3bb78b566137a12.png)
+https://drive.google.com/file/d/1tmiUjPznlsrh5X9wNLR-ifx2-My8V07J/view?usp=sharing
 
 ### Tips
 

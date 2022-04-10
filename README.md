@@ -67,7 +67,7 @@ Code to set up live cam, humidity, and temperature checker
   - Enable Wormhole
   - Your site should now be live and viewable from the URL dataplicity provides or the URL we copied down earlier.
 
-[To install Temp &amp; Hum Sensor]
+### To install Temp &amp; Hum Sensor
 
 1. Connect the AM2302 Temperature &amp; Humidity Sensor to the pin-out board on the PI
   - We will use physical pin 7 (data), pin 9 (ground), and pin 17 (3v3 power)

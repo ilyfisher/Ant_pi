@@ -17,10 +17,10 @@ while True:
         print(temperature,"f ", humidity, "%")
                 
         if humidity is None or temperature is None:
-            f = requests.post('https://api.thingspeak.com/update.json', data = $
+            f = requests.post('https://api.thingspeak.com/update.json', data = {'api_key':thingspeak_key, 'status':'failed to get reading'})
         else:
             # Send the data to Thingspeak
-            r = requests.post('https://api.thingspeak.com/update.json', data = $
+            r = requests.post('https://api.thingspeak.com/update.json', data = {'api_key':thingspeak_key, 'field1':temperature, 'field2':humidity})
             
     except:
         time.sleep(2)

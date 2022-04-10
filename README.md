@@ -45,7 +45,8 @@ Code to set up live cam, humidity, and temperature checker
     - _sudo apt-get update_
     - _sudo apt-get dist-upgrade_
     - _sudo ap-get install git_
-    - _git clone https://github.com/ilyfisher/Ant\_pi/blob/main/run.py_[_https://github.com/silvanmelchior/RPi\_Cam\_Web\_Interface.git_](https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git)
+    - _git clone https://github.com/ilyfisher/Ant\_pi/blob/main/run.py
+    - https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
     - _cd RPi\_Cam\_Web\_Interface_
     - _cd bin_
     - _mv raspimjpeg raspimjpeg-buster_

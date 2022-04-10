@@ -38,7 +38,7 @@ Code to set up live cam, humidity, and temperature checker
   - navigate to camera
   - When Prompted Select &quot;_Yes_&quot;
   - Restart the Raspberry Pi
-    - ```{shutdown -r now}```
+    - ```{ shutdown -r now }```
   
 4. Connect to WIFI
   - Connect to the network you intend to leave your PI on.

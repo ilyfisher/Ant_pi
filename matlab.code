@@ -5,33 +5,35 @@
 % Set 'readChannelID' to the channel ID of the channel to read from. 
 % Also, assign the read field ID to 'fieldID1'. 
 
+
 % TODO - Replace the [] with channel ID to read data from:
-readChannelID = [Your Channel ID Goes Here];
+readChannelID = [1366910];
 % TODO - Replace the [] with the Field ID to read data from:
 fieldID1 = [];
 
 % Channel Read API Key 
 % If your channel is private, then enter the read API
 % Key between the '' below: 
-readAPIKey = 'Your Read API Key Goes Here';
+readAPIKey = '1MDKHPOI99BJK8NH';
 
 %% Read Data %%
-
-
 [temperature, time] = thingSpeakRead(readChannelID, 'Field', fieldID1, 'NumPoints', 30, 'ReadKey', readAPIKey);
 
-
 %% Visualize Data %%
-
 h = plot(time,temperature);
+
 set(h(1), 'color', '#CCAC83');
 set(h(2), 'color', '#EFDDDD');
 
+tstart = datetime('today','TimeZone','America/New_York','Format','d-MMM-y HH:mm');
+tend = datetime('now','TimeZone','America/New_York','Format','d-MMM-y HH:mm');
+
 ylim([0 100]);
-
-xlabel('');
 ylabel('Range');
-legend({'Temperature F°','Humidity %'},'location', 'bestoutside')
-title('Ant Tank Humidity & Temperature');
-t = datetime('now','TimeZone','America/New_York','Format','d-MMM-y HH:mm:ss')
+xlabel('UTC Time (EST+4)');
 
+
+%xlim([tstart tend]);
+
+legend({'Temperature F°','Humidity %'},'location', 'bestoutside');
+title('Ant Tank Humidity & Temperature');

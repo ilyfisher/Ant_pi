@@ -14,7 +14,7 @@ fieldID1 = [];
 % Channel Read API Key 
 % If your channel is private, then enter the read API
 % Key between the '' below: 
-readAPIKey = '1MDKHPOI99BJK8NH';
+readAPIKey = 'XXXXXXXXXXXXXXX';
 
 %% Read Data %%
 [temperature, time] = thingSpeakRead(readChannelID, 'Field', fieldID1, 'NumPoints', 30, 'ReadKey', readAPIKey);
